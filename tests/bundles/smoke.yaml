@@ -18,7 +18,7 @@ applications:
   # required for glance
   rabbitmq:
     charm: ch:rabbitmq-k8s
-    channel: 3.9/edge
+    channel: 3.9/candidate
     scale: 1
     trust: true
 
@@ -37,7 +37,7 @@ applications:
 
   glance:
     charm: ch:glance-k8s
-    channel: 2023.1/edge
+    channel: 2023.1/candidate
     scale: 1
     trust: true
     storage:
