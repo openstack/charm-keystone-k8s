@@ -28,4 +28,4 @@ parts:
       - jsonschema
       - pydantic<2.0
       - jinja2
-      - git+https://opendev.org/openstack/charm-ops-sunbeam#egg=ops_sunbeam
+      - git+https://opendev.org/openstack/charm-ops-sunbeam@stable/2023.2.1#egg=ops_sunbeam
